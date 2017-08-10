@@ -1,13 +1,13 @@
-package poov1;
+package vehiculos;
 
 
-public class Vehiculo {
-    public Vehiculo(String matricula, String marca) {
+public class Vehicle {
+    public Vehicle(String matricula, String marca) {
         this.matricula = matricula;
         this.marca = marca;
     }
 
-    public Vehiculo(String matricula, String marca, String modelo, int anio) {
+    public Vehicle(String matricula, String marca, String modelo, int anio) {
         this.matricula = matricula;
         this.marca = marca;
         this.modelo = modelo;
